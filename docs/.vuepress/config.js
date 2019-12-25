@@ -1,6 +1,5 @@
 module.exports = {
     base: '/my-blog/',
-    dest: 'public',
     title: '阿文的漫漫前端路',
     description: 'A place to record growth',
     head: [
