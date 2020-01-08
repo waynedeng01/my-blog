@@ -1,10 +1,14 @@
 ---
 home: true
-heroImage: /index.jpg
+# heroImage: /index.jpg
+bgImage: '/winter.jpg'
+bgImageStyle: {
+  height: '450px',
+}
 heroText: Welcome to my blog
 tagline: A place to record growth
-actionText: 开始阅读 →
-actionLink: /frontend/
+# actionText: 开始阅读 →
+# actionLink: /frontend/
 features:
 - title: 积累
   details: 将平时遇到的问题总结写进博客，为下次遇到同样问题排雷

@@ -1,28 +1,33 @@
 module.exports = {
+	logo: '/programming.png',
 	base: '/my-blog/',
 	title: '阿文的漫漫前端路',
 	description: 'A place to record growth',
+	author: 'dengchunwen',
+	startYear: 2019,
 	head: [
 		// 页面icon
-		[ 'link', { rel: 'icon', href: '/programming.png' } ]
+		[ 'link', { rel: 'icon', href: '/programming.png' } ],
+		[
+			'meta',
+			{
+				name: 'viewport',
+				content: 'width=device-width,initial-scale=1,user-scalable=no'
+			}
+		]
 	],
 	markdown: {
 		lineNumbers: true // 代码块显示行号
 	},
 	theme: 'reco',
 	themeConfig: {
+		// 右侧头像
+		authorAvatar: '/avatar.jpg',
+		type: 'blog',
 		// 最后更新时间
 		lastUpdated: '最后更新时间',
 		// 所有页面自动生成侧边栏
 		sidebar: 'auto',
-		// 仓库地址
-		repo: null,
-		// 仓库链接label
-		repoLabel: 'Github',
-		// 编辑链接
-		editLinks: true,
-		// 编辑链接label
-		editLinkText: '编辑此页',
 		smoothScroll: true,
 		sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
 		'@vuepress/back-to-top': true,
@@ -37,17 +42,17 @@ module.exports = {
 			'/frontend/': [
 				{
 					title: 'html',
-					collapsable: false,
+					collapsable: true,
 					children: []
 				},
 				{
 					title: 'css',
-					collapsable: false,
+					collapsable: true,
 					children: [ '/frontend/css/画一条0.5px的线.md' ]
 				},
 				{
 					title: 'js',
-					collapsable: false,
+					collapsable: true,
 					children: [
 						// 后缀要加上
 						'/frontend/js/eventLoop.md',
@@ -57,7 +62,7 @@ module.exports = {
 				},
 				{
 					title: 'Vue',
-					collapsable: false,
+					collapsable: true,
 					children: [ '/frontend/vue/数据侦测.md' ]
 				}
 			],
