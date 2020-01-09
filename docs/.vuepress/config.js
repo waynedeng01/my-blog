@@ -18,7 +18,7 @@ module.exports = {
 					name: 'Distance',
 					artist: '伍伍慧 (satoshi gogo)',
 					url:
-						'"http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C4000031L0Q00hgVBm.m4a?guid=3917391470&vkey=A2AE5834BE80126448D395F0C3E66C998611707E8CBCFB9D5DF78C757E9E5B9AF684BD0104AAB798C4EE2635BE0628F48B391CDE82C28F8D&uin=0&fromtag=38"',
+						'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C4000031L0Q00hgVBm.m4a?guid=3917391470&vkey=A2AE5834BE80126448D395F0C3E66C998611707E8CBCFB9D5DF78C757E9E5B9AF684BD0104AAB798C4EE2635BE0628F48B391CDE82C28F8D&uin=0&fromtag=38',
 					cover: '"https://y.gtimg.cn/music/photo_new/T002R300x300M000001jozFU0zNaoG.jpg?max_age=2592000"'
 				}
 			],
