@@ -6,7 +6,6 @@ module.exports = {
 	plugins: {
 		'@vuepress-reco/vuepress-plugin-bgm-player': {
 			audios: [
-				// 网络文件示例
 				{
 					name: '風の詩 (风之诗)',
 					artist: '押尾光太郎 (押尾コータロー)',
