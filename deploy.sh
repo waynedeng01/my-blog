@@ -12,7 +12,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'update'
+git commit -m 'add BGM'
 
 
 
