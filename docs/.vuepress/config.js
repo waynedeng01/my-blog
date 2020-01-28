@@ -9,16 +9,14 @@ module.exports = {
 				{
 					name: '風の詩 (风之诗)',
 					artist: '押尾光太郎 (押尾コータロー)',
-					url:
-						'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C400000Br8Y53R1cnP.m4a?guid=7047792390&vkey=B3B4B08CE18D764BC69F62B85E63875576F2BBA22CCF462C7908E77764A006F419B735391083F5E9B1FEC834EF754383AE010ACB458A4E76&uin=0&fromtag=38',
+					url: '/風の詩.mp3',
 					cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003xbqA80gmqnt.jpg?max_age=2592000'
 				},
 				{
-					name: 'Distance',
-					artist: '伍伍慧 (satoshi gogo)',
-					url:
-						'http://aqqmusic.tc.qq.com/amobile.music.tc.qq.com/C4000031L0Q00hgVBm.m4a?guid=3917391470&vkey=A2AE5834BE80126448D395F0C3E66C998611707E8CBCFB9D5DF78C757E9E5B9AF684BD0104AAB798C4EE2635BE0628F48B391CDE82C28F8D&uin=0&fromtag=38',
-					cover: '"https://y.gtimg.cn/music/photo_new/T002R300x300M000001jozFU0zNaoG.jpg?max_age=2592000"'
+					name: 'Merry Christmas Mr. Lawrence',
+					artist: '坂本龍一',
+					url: '/坂本龍一 - Merry Christmas Mr. Lawrence.mp3',
+					cover: 'http://p1.music.126.net/woiqainQI-orV_RuUuOVRw==/716881581353216.jpg?param=130y130'
 				}
 			],
 			position: {
