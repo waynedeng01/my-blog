@@ -9,13 +9,13 @@ module.exports = {
 				{
 					name: '風の詩 (风之诗)',
 					artist: '押尾光太郎 (押尾コータロー)',
-					url: '/風の詩.mp3',
+					url: '/1.mp3',
 					cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003xbqA80gmqnt.jpg?max_age=2592000'
 				},
 				{
 					name: 'Merry Christmas Mr. Lawrence',
 					artist: '坂本龍一',
-					url: '/坂本龍一 - Merry Christmas Mr. Lawrence.mp3',
+					url: '/2.mp3',
 					cover: 'http://p1.music.126.net/woiqainQI-orV_RuUuOVRw==/716881581353216.jpg?param=130y130'
 				}
 			],
