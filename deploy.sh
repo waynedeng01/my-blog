@@ -12,7 +12,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'change time'
+git commit -m 'add new bgm'
 
 
 
