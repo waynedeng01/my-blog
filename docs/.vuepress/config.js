@@ -112,7 +112,8 @@ module.exports = {
 						// 后缀要加上
 						'/frontend/js/eventLoop.md',
 						'/frontend/js/各种源码实现.md',
-						'/frontend/js/前端性能杂谈.md'
+						'/frontend/js/前端性能杂谈.md',
+						'/frontend/js/正则迷你书小结.md'
 					]
 				},
 				{
