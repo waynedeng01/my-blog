@@ -4,27 +4,27 @@ module.exports = {
 	title: '阿文的漫漫前端路',
 	description: 'A place to record growth',
 	plugins: {
-		'@vuepress-reco/vuepress-plugin-bgm-player': {
-			audios: [
-				{
-					name: '風の詩 (风之诗)',
-					artist: '押尾光太郎 (押尾コータロー)',
-					url: '/1.mp3',
-					cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003xbqA80gmqnt.jpg?max_age=2592000'
-				},
-				{
-					name: 'Merry Christmas Mr. Lawrence',
-					artist: '坂本龍一',
-					url: '/2.mp3',
-					cover: 'http://p1.music.126.net/woiqainQI-orV_RuUuOVRw==/716881581353216.jpg?param=130y130'
-				}
-			],
-			position: {
-				top: '100px',
-				right: '10px',
-				'z-index': '999'
-			}
-		}
+		// '@vuepress-reco/vuepress-plugin-bgm-player': {
+		// 	audios: [
+		// 		{
+		// 			name: '風の詩 (风之诗)',
+		// 			artist: '押尾光太郎 (押尾コータロー)',
+		// 			url: '/1.mp3',
+		// 			cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003xbqA80gmqnt.jpg?max_age=2592000'
+		// 		},
+		// 		{
+		// 			name: 'Merry Christmas Mr. Lawrence',
+		// 			artist: '坂本龍一',
+		// 			url: '/2.mp3',
+		// 			cover: 'http://p1.music.126.net/woiqainQI-orV_RuUuOVRw==/716881581353216.jpg?param=130y130'
+		// 		}
+		// 	],
+		// 	position: {
+		// 		top: '100px',
+		// 		right: '10px',
+		// 		'z-index': '999'
+		// 	}
+		// }
 	},
 	head: [
 		// 页面icon
@@ -111,7 +111,9 @@ module.exports = {
 						'/frontend/js/eventLoop.md',
 						'/frontend/js/各种源码实现.md',
 						'/frontend/js/前端性能杂谈.md',
-						'/frontend/js/正则迷你书小结.md'
+						'/frontend/js/正则迷你书小结.md',
+						'/frontend/js/手写promise.md',
+						'/frontend/js/浏览器缓存机制.md'
 					]
 				},
 				{
