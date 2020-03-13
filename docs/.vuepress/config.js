@@ -3,29 +3,7 @@ module.exports = {
 	base: '/my-blog/',
 	title: '阿文的漫漫前端路',
 	description: 'A place to record growth',
-	plugins: {
-		// '@vuepress-reco/vuepress-plugin-bgm-player': {
-		// 	audios: [
-		// 		{
-		// 			name: '風の詩 (风之诗)',
-		// 			artist: '押尾光太郎 (押尾コータロー)',
-		// 			url: '/1.mp3',
-		// 			cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003xbqA80gmqnt.jpg?max_age=2592000'
-		// 		},
-		// 		{
-		// 			name: 'Merry Christmas Mr. Lawrence',
-		// 			artist: '坂本龍一',
-		// 			url: '/2.mp3',
-		// 			cover: 'http://p1.music.126.net/woiqainQI-orV_RuUuOVRw==/716881581353216.jpg?param=130y130'
-		// 		}
-		// 	],
-		// 	position: {
-		// 		top: '100px',
-		// 		right: '10px',
-		// 		'z-index': '999'
-		// 	}
-		// }
-	},
+	plugins: {},
 	head: [
 		// 页面icon
 		[ 'link', { rel: 'icon', href: '/programming.png' } ],
@@ -113,7 +91,8 @@ module.exports = {
 						'/frontend/js/前端性能杂谈.md',
 						'/frontend/js/正则迷你书小结.md',
 						'/frontend/js/手写promise.md',
-						'/frontend/js/浏览器缓存机制.md'
+						'/frontend/js/浏览器缓存机制.md',
+						'/frontend/js/数组扁平化思路提供.md'
 					]
 				},
 				{
@@ -124,7 +103,7 @@ module.exports = {
 			],
 			// docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
 			'/计算机基础/': [ 'http与浏览器.md', '数据库原理.md', '计算机组成原理.md' ],
-			'/周总结/': [ '周总结.md' ]
+			'/周总结/': [ '周总结.md', '另开一栏.md' ]
 		}
 	}
 }
