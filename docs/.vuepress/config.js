@@ -79,7 +79,7 @@ module.exports = {
 				{
 					title: 'css',
 					collapsable: true,
-					children: [ '/frontend/css/画一条0.5px的线.md' ]
+					children: [ '/frontend/css/画一条0.5px的线.md', '/frontend/css/关于z-index的理解.md' ]
 				},
 				{
 					title: 'js',
@@ -102,7 +102,7 @@ module.exports = {
 				}
 			],
 			// docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
-			'/计算机基础/': [ 'http与浏览器.md', '数据库原理.md', '计算机组成原理.md' ],
+			'/计算机基础/': [ 'http与浏览器.md', '数据库原理.md' ],
 			'/周总结/': [ '周总结.md', '另开一栏.md' ]
 		}
 	}
