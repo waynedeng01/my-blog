@@ -92,7 +92,8 @@ module.exports = {
 						'/frontend/js/正则迷你书小结.md',
 						'/frontend/js/手写promise.md',
 						'/frontend/js/浏览器缓存机制.md',
-						'/frontend/js/数组扁平化思路提供.md'
+						'/frontend/js/数组扁平化思路提供.md',
+						'/frontend/js/垃圾回收.md'
 					]
 				},
 				{
