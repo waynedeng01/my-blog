@@ -99,7 +99,7 @@ module.exports = {
 				{
 					title: 'Vue',
 					collapsable: true,
-					children: [ '/frontend/vue/数据侦测.md' ]
+					children: [ '/frontend/vue/数据侦测.md', '/frontend/vue/Vue3.0初探.md' ]
 				}
 			],
 			// docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
