@@ -1,7 +1,7 @@
 module.exports = {
 	logo: '/programming.png',
 	base: '/my-blog/',
-	title: '阿文的漫漫前端路',
+	title: "Wayne's blog",
 	description: 'A place to record growth',
 	plugins: {},
 	head: [
@@ -20,7 +20,7 @@ module.exports = {
 	},
 	theme: 'reco',
 	themeConfig: {
-		author: 'dengchunwen',
+		author: 'Waynedeng',
 		startYear: 2019,
 		// 右侧头像
 		authorAvatar: '/avatar.jpg',
@@ -32,12 +32,6 @@ module.exports = {
 		smoothScroll: true,
 		sidebarDepth: 2, // e'b将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
 		'@vuepress/back-to-top': true,
-		// 密钥
-		// keyPage: {
-		// 	keys: [ 'dengchunwen' ],
-		// 	color: '#42b983', // 登录页动画球的颜色
-		// 	lineColor: '#42b983' // 登录页动画线的颜色
-		// },
 		blogConfig: {
 			category: {
 				location: 2,
@@ -64,47 +58,32 @@ module.exports = {
 				icon: 'reco-message',
 				link: 'https://github.com/010deng'
 			}
-
-			// { text: '计算机基础', link: '/计算机基础/http与浏览器.md' },
-			// { text: '前端相关', link: '/frontend/' },
-			// { text: '周总结', link: '/周总结/周总结.md' }
 		],
 		sidebar: {
 			'/frontend/': [
 				{
-					title: 'html',
-					collapsable: true,
-					children: []
-				},
-				{
-					title: 'css',
-					collapsable: true,
-					children: [ '/frontend/css/画一条0.5px的线.md', '/frontend/css/关于z-index的理解.md' ]
-				},
-				{
-					title: 'js',
+					title: '前端积累',
 					collapsable: true,
 					children: [
-						// 后缀要加上
-						'/frontend/js/eventLoop.md',
-						'/frontend/js/各种源码实现.md',
-						'/frontend/js/前端性能杂谈.md',
-						'/frontend/js/正则迷你书小结.md',
-						'/frontend/js/手写promise.md',
-						'/frontend/js/浏览器缓存机制.md',
-						'/frontend/js/数组扁平化思路提供.md',
-						'/frontend/js/垃圾回收.md'
+						'画一条0.5px的线.md',
+						'关于z-index的理解.md',
+						'eventLoop.md',
+						'各种源码实现.md',
+						'前端性能杂谈.md',
+						'正则迷你书小结.md',
+						'手写promise.md',
+						'浏览器缓存机制.md',
+						'数组扁平化思路提供.md',
+						'垃圾回收.md',
+						'从鉴权引发的思考.md',
+						'数据侦测.md',
+						'Vue3.0初探.md'
 					]
-				},
-				{
-					title: 'Vue',
-					collapsable: true,
-					children: [ '/frontend/vue/数据侦测.md', '/frontend/vue/Vue3.0初探.md' ]
 				}
 			],
 			// docs文件夹下面的algorithm文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
-			'/计算机基础/': [ 'http与浏览器.md', '数据库原理.md' ],
-			'/周总结/': [ '周总结.md', '另开一栏.md' ]
+			'/计算机基础/': [],
+			'/不正经记录/': [ '周总结.md', '另开一栏.md' ]
 		}
 	}
-}
+};
